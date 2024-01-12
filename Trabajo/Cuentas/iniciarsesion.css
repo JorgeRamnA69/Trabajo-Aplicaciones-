@@ -1,9 +1,9 @@
 @font-face {
     font-family: fuenteinicio;
-    src: url(/pricedown/pricedown\ bl.otf);
+    src: url(/Trabajo/pricedown/pricedown\ bl.otf);
 }
 body{
-    background-image: url(/Inicio/c5c909ae26d0f98d73e02d9eb386fa29.png);
+    background-image: url(/Trabajo/Inicio/c5c909ae26d0f98d73e02d9eb386fa29.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 body{
-    background-image: url(/b831291cc2e4ab430180eccb87a0a076.jpg);
+    background-image: url(/Trabajo/b831291cc2e4ab430180eccb87a0a076.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: repeat;
@@ -293,7 +293,7 @@ h1{
 }
 .iniciovisible{
   position: relative;
-  background-image: url(/Mapa/Imagenes/casinoexterior.jpg);
+  background-image: url(/Trabajo/Mapa/Imagenes/casinoexterior.jpg);
   height: 100vh;
   width: 100;
   z-index: -1;

@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="/Inicio/General.css">
-    <link rel="stylesheet" href="/Mapa/Vanilla.css">
+    <link rel="stylesheet" href="/Trabajo/Inicio/General.css">
+    <link rel="stylesheet" href="/Trabajo/Cuentas/iniciarsesion.css">
+    <link rel="stylesheet" href="/Trabajo/Inicio/Inicio.css">
     <script src="https://kit.fontawesome.com/caae037d42.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <div> <!-- Navegacion -->
         <div id="navbartop"> <!--Navegacion top-->
             <div id="desplegable1">
-                <button id="desplegar"><i id="icono" class="fas fa-bars fa-xl"></i></button>
+                <button id="desplegar" onclick="toggleCruz()">
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                    <div class="barra"></div>
+                </button>
                 <div id="desplegable" class="oculto">
                     <ul id="drop">
-                        <li class="lista"><a href="/Inicio/Inicio.html">Inicio</a></li>
                         <li class="lista1">Historia</li>
                         <div>
                             <li class="lista1" id="mapaboton">Mapa</li>
@@ -26,8 +30,8 @@
                                 <div>
                                     <li id="losantosb" class="lista">Los santos</li>
                                     <ul id="losantosd" class="oculto2">
-                                        <li class="lista"><a href="/Mapa/casino.html">Casino</a></li>
-                                        <li class="lista"><a href="/Mapa/Vanilla.html">Vanilla Unicorn</a></li>
+                                        <li class="lista"><a href="/Trabajo/Mapa/casino.html">Casino</a></li>
+                                        <li class="lista"><a href="/Trabajo/Mapa/Vanilla.html">Vanilla Unicorn</a></li>
                                         <li class="lista">Arena</li>
                                         <li class="lista">Bunker</li>
                                         <li class="lista">Instalaciones</li>
@@ -51,16 +55,34 @@
                 </div>
             </div>
             <div class="logo">
-                <a href="/Inicio/Inicio.html"><img id="logo" src="/vanilla-removebg-preview.png"></a>
+                <a href="/Trabajo/Inicio/Inicio.html"><img id="logo" src="/Trabajo/Inicio/Logo gta.png"></a>
             </div>
             <div id="cuenta1">
                 <ul id="cuenta">
-                    <li class="cuenta"><a href="/Cuentas/iniciarsesion.html">Iniciar sesión</a></li>
-                    <li class="cuenta"><a href="/Cuentas/registrarse.html">Registrarse</a></li>
+                    <li class="cuenta"><a href="/Trabajo/Cuentas/iniciarsesion.html">Iniciar sesión</a></li>
+                    <li class="cuenta"><a href="/Trabajo/Cuentas/registrarse.html">Registrarse</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <script src="/Inicio/Inicio.js"></script>
+    <div id="iniciosesion1">
+        <div id="iniciosesion2">
+         <form>
+              <div id="user1">
+                    <input class="user1" type="text" placeholder="Usuario o Correo">
+                    <input class="user1" type="password" placeholder="contraseña">
+                </div>
+               <div id="boton2">
+                   <button class="boton2" type="submit">Enviar</button>
+                  <button class="boton2" type="reset">Reiniciar</button>
+               </div>
+         </form>
+         <div id="registrarse">
+            <p class="registrarse">No tienes una cuenta?</p>
+            <a class="registrarse" href="/Trabajo/Cuentas/registrarse.html">Registrate</a>
+         </div>
+        </div>
+
+    <script src="/Trabajo/Inicio/Inicio.js"></script>
 </body>
 </html>
