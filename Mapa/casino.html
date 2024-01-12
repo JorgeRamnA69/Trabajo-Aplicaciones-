@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/Inicio/General.css">
+    <link rel="stylesheet" href="/Mapa/casino.css">
+    <link rel="stylesheet" href="/Mapa/casino2.css">
+    <script src="https://kit.fontawesome.com/caae037d42.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@500&family=Roboto:wght@100&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="/Inicio/Inicio.js" defer></script>
+    <script src="/Mapa/casino.js" defer></script>
+</head>
+<body>
+        <div id="navbartop"> <!--Navegacion top-->
+            <div id="desplegable1">
+                    <button id="desplegar" onclick="toggleCruz()">
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                        <div class="barra"></div>
+                    </button>
+                <div id="desplegable" class="oculto">
+                    <ul id="drop">
+                        <li class="lista1"><a href="/Inicio/Inicio.html">Inicio</a></li>
+                        <li class="lista1">Historia</li>
+                        <div>
+                            <li class="lista1" id="mapaboton">Mapa</li>
+                            <ul id="mapa" class="oculto1">
+                                <div>
+                                    <li id="losantosb" class="lista2">Los santos</li>
+                                    <ul id="losantosd" class="oculto2">
+                                        <li class="lista3"><a href="/Mapa/casino.html">Casino</a></li>
+                                        <li class="lista3"><a href="/Mapa/Vanilla.html">Vanilla Unicorn</a></li>
+                                        <li class="lista3">Arena</li>
+                                        <li class="lista3">Bunker</li>
+                                        <li class="lista3">Instalaciones</li>
+                                        <li class="lista3">Apartamentos</li>
+                                    </ul>
+                                    <li class="lista2">Paleto</li>
+                                    <li class="lista2">Cayo Perico</li>
+                                    <li class="lista2">Sandy shores</li>
+                                    <li class="lista2">Grapeseed</li>
+                                </div>
+                            </ul>
+                        </div>
+                        <li class="lista1">Personajes</li>
+                        <div>
+                            <li class="lista1">Atracos</li>
+                            <ul>
+                                <!-- deaplegable -->
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <a href="/Inicio/Inicio.html"><img id="logo" src="/Diamond-removebg-preview.png"></a>
+            </div>
+            <div id="cuenta1">
+                <ul id="cuenta">
+                    <li class="cuenta"><a href="/Cuentas/iniciarsesion.html">Iniciar sesión</a></li>
+                    <li class="cuenta"><a href="/Cuentas/registrarse.html">Registrarse</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="navbar2">
+            <ul id="casino">
+                <div id="inicioboton" class="divc">
+                    <div id="iniciodiv" class="divtop"></div>
+                    <li id="inicioli" class="listacasino"><p class="pcasino">Inicio</p></li>
+                </div>
+                <div id="sociosboton" class="divc">
+                    <div id="sociosdiv" class="divtop"></div>
+                    <li id="sociosli" class="listacasino"><p class="pcasino">Socios</p></li>
+                </div>
+                <div id="aticoboton" class="divc">
+                    <div id="aticodiv" class="divtop"></div>
+                    <li id="aticoli" class="listacasino"><p class="pcasino">El Atico</p></li>
+                </div>
+                <div id="casinoboton" class="divc">
+                    <div id="casinodiv" class="divtop"></div>
+                    <li id="casinoli" class="listacasino"><p class="pcasino">El casino</p></li>
+                </div>
+            </ul>
+        </div>
+        <video id="video" class="video" src="/Mapa/Imagenes/SaveTube.io-GTA Online_ The Diamond Casino & Resort-(1080p).mp4" controls loop muted autoplay></video>
+        <div id="iniciocasino" class="oculto4">
+            <div id="fondocasino" >
+                <h1 class="margeniniciocasino" id="titulodiamond">DIAMOND CASINO </h1>
+                <p id="iniciocasinot" class="margeniniciocasino">The Diamond Casino & Resort, <br>
+                    es un complejo de casino y hotel<br>
+                     que se presentó en Grand Theft Auto Online <br>
+                    como parte de la actualización<br>
+                    The Diamond Casino & Resort.<br>
+                    este casino es considerado como el edificio<br>
+                     más protegido de todo Los Santos.
+                    </p>
+            </div>
+        </div>
+        <div id="socioscasino" class="oculto4">
+            <div id="iniciosocios" >
+                <h1 id="hsocios" class="titulo">SOCIOS DEL CASINO</h1>
+                <p id="socioscasinot" >En the diamond casino puedes hacerte socio <br>
+                    para tener ventajas, hay dos tipos de socios, los que pagan una <br>
+                    membresia y los que tienen un atico teniendo los segundos ventajas exclusivas <br>
+                    </p>
+            </div>
+            <div id="ventajassocios">
+                <div id="fondosocios">
+                    <h1 class="margeniniciocasino" id="titulosocios">APARCAMIENTOS</h1>
+                    <p class="margeniniciocasino">Como socio tambien tienes acceso a<br>
+                        un aparcacohes que se encargara de dejar tu coche<br>
+                        aparcado en el aparcamiento
+                    </p>
+                </div>
+            </div>
+            <div id="aparcacoches">
+                <div id="fondosocios1">
+                    <h1 class="margeniniciocasinor" id="titulosocios">APARCACOCHES</h1>
+                    <p class="margeniniciocasinor">Como socio tienes acceso a un aparcamiento<br>
+                        con acceso directo a cualquier parte del<br>
+                        casino a traves de un ascensor,<br>
+                        el aparcamiento es para solo un<br>
+                        vehiculo y compartido entre los<br>
+                        socios del casino.
+                    </p>
+                </div>
+            </div>
+            <div id="serviciolimusina">
+                <div id="fondosocios">
+                    <h1 class="margeniniciocasino" id="titulosocios">SERVICIO DE LIMUSINAS</h1>
+                    <p class="margeniniciocasino">Dispones de un servicio <br>
+                        de limunisas que de forma gratuita te llevara a donde <br> 
+                        desees de la ciudad rapidamente
+                </div>
+            </div>
+            <div id="highlimit">
+                <div id="fondosocios1">
+                    <h1 class="margeniniciocasinor" id="titulosocios">HIGH LIMIT</h1>
+                    <p class="margeniniciocasinor">Tienes acceso a salas vip y <br>
+                        la zona de "altas apuestas" donde el limite de<br>
+                        las apuestas es mucho mas alto por lo que tambien<br>
+                        podras ganar mas dinero
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="aticocasino" class="oculto4">
+            <div id="fondoatico">
+                <h1 id="titulodiamond2">EL ATICO</h1>
+                <div id="slider">
+                    <i id="prevBtn" class="fa-solid fa-chevron-left fa-2xl"></i>
+                    <div class="slidercontainer">
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/salon.png" alt="Salon">
+                                <h1 class="nombre">SALON</h1>
+                            </div>
+                            <p class="nombre1">El salon del atico incluye un armario televisor sillon y un telefono de servicio</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/dormitorio.png" alt="Dormitorio">
+                                <h1 class="nombre">DORMITORIO</h1>
+                            </div>
+                            <p class="nombre1">El dormitorio tiene un baño con television bañera ducha y television en el propio dormitorio</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/despacho.png" alt="despacho">
+                                <h1 class="nombre">DESPACHO</h1>
+                            </div>
+                            <p class="nombre1">Despacho con ordenador y caja fuerte</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/cine.png" alt="cine">
+                                <h1 class="nombre">CINE</h1>
+                            </div>
+                            <p class="nombre1">Cine amplio con varios sillones para ver la television</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa//Imagenes/bar.png" alt="bar">
+                                <h1 class="nombre">BAR</h1>
+                            </div>
+                            <p class="nombre1">Bar donde se pueden organizar fiestas de socios y jugar en maquinas recreativas</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/balneario.png" alt="balenario">
+                                <h1 class="nombre">BALENARIO</h1>
+                            </div>
+                            <p class="nombre1">Balneario con spa baños y peluquero gratuito</p>
+                        </div>
+                        <div class="slide">
+                            <div class="slide1">
+                                <img class="imagenslide" src="/Mapa/Imagenes/garaje.png" alt="Garaje">
+                                <h1 class="nombre">GARAJE</h1>
+                            </div>
+                            <p class="nombre1">Garaje privado con ascensor directo a cualquier parte del casino</p>
+                        </div>
+                    </div>
+                    <i id="nextBtn" class="fa-solid fa-chevron-right fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+        <div id="casinocasino" class="oculto4">
+            <div id="iniciosocios1" >
+                <h1 id="hsocios" class="titulo">EL CASINO</h1>
+                <p id="socioscasinot" >Dentro del casino enctonraras gran variedad de juegos<br>
+                    en los que apostar y ganar premios y una gran ruleta en<br>
+                    la enrada en la que podras ganar un coche gratis
+                    </p>
+            </div>
+            <div id="mesasdeapuestas">
+                <div id="fondosocios">
+                    <h1 class="margeniniciocasino" id="titulosocios">JUEGOS DE APUESTAS</h1>
+                    <p class="margeniniciocasino">El casino tiene como mesas de juego en las que<br>
+                        apostar ruletas, poker de tres y blackjack en variante<br>
+                        de limite bajo y alto
+                    </p>
+                </div>
+            </div>
+            <div id="carrerasdecaballos">
+                <div id="fondosocios1">
+                    <h1 class="margeniniciocasinor" id="titulosocios">CARRERAS DE CABALLOS</h1>
+                    <p class="margeniniciocasinor">Otro juego disponible son<br>
+                        las carreras de caballos pero en formato<br>
+                        digital pudiendo apostar en solitario<br>
+                        o en una sala comun a todos
+                    </p>
+                </div>
+            </div>
+            <div id="ruletadelcasino">
+                <div id="fondosocios">
+                    <h1 class="margeniniciocasino" id="titulosocios">LA RULETA</h1>
+                    <p class="margeniniciocasino">Dispones de una tirada al dia<br>
+                        para poder ganar grandes premios que van<br>
+                        desde descuentos hasta un coche que cambia<br>
+                        cada semana
+                    </p>
+                </div>
+            </div>
+            <div id="slots">
+                <div id="fondosocios1">
+                    <h1 class="margeniniciocasinor" id="titulosocios">Tragaperras</h1>
+                    <p class="margeniniciocasinor">Dispones de una gran variedad<br>
+                        de maquinas tragaperras en las<br>
+                        que poder apostar desde bajas cantidades<br>
+                        con pequeños premios hasta cantidades<br>
+                        mas grandes con mayores premios
+                    </p>
+                </div>
+            </div>
+            <table id="table">
+                <thead>
+                  <tr>
+                    <th class="th">Premios</th> <!-- Celda vacía para la esquina superior izquierda -->
+                    <th class="th">Republican Space Rangers</th>
+                    <th class="th">The liberal superhero</th>
+                    <th class="th">Vice City PI</th>
+                    <th class="th">Fame or Shame</th>
+                    <th class="th">Deity of the sun</th>
+                    <th class="th">Twilight knife</th>
+                    <th class="th">Diamond Miner</th>
+                    <th class="th">Evacuator</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="row-header">
+                    <th class="th">Premio 1</th>
+                    <td class="td">50</td>
+                    <td class="td">200</td>
+                    <td class="td">10</td>
+                    <td class="td">1000</td>
+                    <td class="td">200</td>
+                    <td class="td">1000</td>
+                    <td class="td">10</td>
+                    <td class="td">50</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 2</th>
+                    <td class="td">125</td>
+                    <td class="td">125</td>
+                    <td class="td">500</td>
+                    <td class="td">25</td>
+                    <td class="td">2500</td>
+                    <td class="td">500</td>
+                    <td class="td">2500</td>
+                    <td class="td">25</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 3</th>
+                    <td class="td">12500</td>
+                    <td class="td">12500</td>
+                    <td class="td">50000</td>
+                    <td class="td">2500</td>
+                    <td class="td">250000</td>
+                    <td class="td">50000</td>
+                    <td class="td">250000</td>
+                    <td class="td">2500</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 4</th>
+                    <td class="td">625</td>
+                    <td class="td">625</td>
+                    <td class="td">2500</td>
+                    <td class="td">125</td>
+                    <td class="td">12500</td>
+                    <td class="td">2500</td>
+                    <td class="td">12500</td>
+                    <td class="td">125</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 5</th>
+                    <td class="td">1250</td>
+                    <td class="td">1250</td>
+                    <td class="td">5000</td>
+                    <td class="td">250</td>
+                    <td class="td">25000</td>
+                    <td class="td">5000</td>
+                    <td class="td">25000</td>
+                    <td class="td">250</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 6</th>
+                    <td class="td">1875</td>
+                    <td class="td">1875</td>
+                    <td class="td">7500</td>
+                    <td class="td">375</td>
+                    <td class="td">37500</td>
+                    <td class="td">7500</td>
+                    <td class="td">37500</td>
+                    <td class="td">375</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 7</th>
+                    <td class="td">2500</td>
+                    <td class="td">2500</td>
+                    <td class="td">10000</td>
+                    <td class="td">500</td>
+                    <td class="td">50000</td>
+                    <td class="td">10000</td>
+                    <td class="td">50000</td>
+                    <td class="td">500</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 8</th>
+                    <td class="td">6250</td>
+                    <td class="td">6250</td>
+                    <td class="td">25000</td>
+                    <td class="td">1250</td>
+                    <td class="td">125000</td>
+                    <td class="td">25000</td>
+                    <td class="td">125000</td>
+                    <td class="td">1250</td>
+                  </tr>
+                  <tr class="row-header">
+                    <th class="th">Premio 9</th>
+                    <td class="td">25000</td>
+                    <td class="td">25000</td>
+                    <td class="td">100000</td>
+                    <td class="td">5000</td>
+                    <td class="td">500000</td>
+                    <td class="td">100000</td>
+                    <td class="td">500000</td>
+                    <td class="td">5000</td>
+                  </tr>
+
+                </tbody>
+              </table>
+              <br><br><br>
+        </div>
+</body>
+</html>

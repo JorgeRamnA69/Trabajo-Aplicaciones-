@@ -1,0 +1,104 @@
+@font-face {
+    font-family: fuenteinicio;
+    src: url(/pricedown/pricedown\ bl.otf);
+}
+body{
+    background-image: url(/Inicio/c5c909ae26d0f98d73e02d9eb386fa29.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: fuenteinicio, sans-serif;
+}
+#navbartop{
+    background-color: rgba(0,0,0,.5);
+    border-bottom-style: solid;
+}
+.cuenta a{
+    color: #000000;
+}
+.cuenta :hover{
+    color: #ffffff;
+    border-bottom-style: solid;
+    padding-bottom: 22px;
+}
+.lista1:hover{
+    border-right-style: solid;
+    border-bottom-style: #ffffff;
+    border-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    color: #ffffff;
+}
+#iniciosesion1{
+    margin-top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    width: fit-content;
+    background-color: #00000080;
+    padding: 70px;
+    border-radius: 5px;
+    border-style: solid;
+
+    
+}
+#user1{
+    position: relative;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user1{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+    border-style: solid;
+    border-color: #00000080;
+
+}
+#boton2{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    margin-top: 30px;
+}
+.boton2{
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 30px;
+
+}
+#registrarse{
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+    width: fit-content;
+    align-items: center;
+    color: #ffffff;
+}
+a{
+    height: fit-content;
+    color: #ffffff;
+    padding-left: 10px;
+
+}
+label{
+    font-family: fuenteinicio, sans-serif;
+    color: #ffffff;
+}
+input{
+    font-family: fuenteinicio, sans-serif;
+}
+select{
+    font-family: fuenteinicio, sans-serif;
+}
+button{
+    font-family: fuenteinicio, sans-serif;
+}

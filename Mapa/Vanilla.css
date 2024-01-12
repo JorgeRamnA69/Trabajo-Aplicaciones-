@@ -1,0 +1,71 @@
+body{
+    background: url(/image\ \(1\).png);
+    background-size: 70%;
+    font-family: 'Dancing Script', cursive;
+}
+#navbartop{
+    background-color: rgba(21, 2, 23, .8);
+}
+#vanilla{
+    height: 75%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    align-self: center;
+}
+.visible{
+    background-color: #150217cc;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+.visible1, .visible2{
+    background-color: #150217cc;
+    border-color: #000000;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+.lista, .lista a{
+    font-family: 'Arial', sans-serif;
+    color: #e1a02c; /* Color del texto blanco */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 20px #b8860b, 0 0 20px #ffd700;
+}
+.lista1{
+    font-family: 'Arial', sans-serif;
+    color: #e1a02c; /* Color del texto blanco */
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 20px #b8860b, 0 0 20px #ffd700;
+}
+
+.lista:hover{
+    color: #e1a02c;
+    text-shadow: 0 0 20px #e1a02c, 0 0 30px #e1a02c, 0 0 40px #e1a02c, 0 0 50px #00f, 0 0 80px #00f, 0 0 90px #00f, 0 0 110px #00f, 0 0 160px #00f;
+}
+.lista1:hover{
+    color: #e1a02c;
+    text-shadow: 0 0 20px #e1a02c, 0 0 30px #e1a02c, 0 0 40px #e1a02c, 0 0 50px #00f, 0 0 80px #00f, 0 0 90px #00f, 0 0 110px #00f, 0 0 160px #00f;
+}
+.lista a:hover {
+    color: #e1a02c;
+    text-shadow: 0 0 20px #e1a02c, 0 0 30px #e1a02c, 0 0 40px #e1a02c, 0 0 50px #00f, 0 0 80px #00f, 0 0 90px #00f, 0 0 110px #00f, 0 0 160px #00f;
+}
+.cuenta{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 20px #b8860b, 0 0 20px #ffd700;
+}
+.cuenta a{
+    color: #e1a02c; /* Color del texto blanco */
+}
+.cuenta a:hover {
+    color: #e1a02c;
+    text-shadow: 0 0 20px #e1a02c, 0 0 30px #e1a02c, 0 0 40px #e1a02c, 0 0 50px #00f, 0 0 80px #00f, 0 0 90px #00f, 0 0 110px #00f, 0 0 160px #00f;
+}
+#cuenta1{
+    margin-right: 10px;
+}

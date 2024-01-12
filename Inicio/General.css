@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#navbartop{
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 75px;
+    /* align-items: center; */
+}
+#logo{
+    height: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo{
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-45%);
+}
+.oculto{
+    display: none;
+}
+.oculto1{
+    display: none;
+}
+.oculto2{
+    display: none;
+}
+.visible{
+    position: relative;
+    display: block;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.visible1{
+    position: absolute;
+    display: block;
+    top: 0px; 
+    margin-left: 198px;
+    width: 300px;
+    list-style: none;
+    padding-left: 0px;
+}
+.visible2{
+    position: absolute;
+    display: block;
+    top: 0px;
+    margin-left: 300px;
+    width: 300px;
+    padding-left: 0px;
+    list-style: none;
+}
+#desplegable1{
+    width: 200px;
+    position: relative;
+    text-align: center;
+    list-style: none;
+    z-index: 2;
+    margin-bottom: 25px;
+}
+#drop{
+    list-style: none;
+    padding-left: 0px;
+}
+#cuenta{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#cuenta1{
+    position: relative;
+    margin-left: auto;
+    height: 77px;
+}
+#desplegar{
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 3rem;
+    height: 2rem;
+    border: 0;
+    background: transparent;
+    gap: .65rem;  
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+}
+.cruz .barra:first-child {
+    transform: rotate(45deg);
+  }
+  
+  .cruz .barra:last-child {
+    transform: rotate(-45deg);
+  }
+  
+  .cruz .barra:nth-child(2) {
+    transform: scaleY(0);
+    transition: transform 0.4s; /* Agregado para una transición suave */
+  }
+#icono{
+    color: #ffffff;
+    position: relative;
+}
+#hueco{
+    width: 300px;
+}
+.cuenta{
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    align-items: center;
+}
+.cuenta a{
+    text-decoration: none;
+    font-size: x-large;
+}
+.lista{
+    font-size: x-large;
+    padding: 10px;
+}
+.lista, .lista a{
+    font-size: x-large;
+    padding: 10px;
+    text-decoration: none;
+}
+.lista1, .lista1 a{
+    font-size: x-large;
+    padding: 10px;
+    position: static;
+    margin-top: auto;
+    text-decoration: none;
+}
+
+.lista2, .lista2 a{
+    font-size: x-large;
+    padding: 10px;
+    position: static;
+    margin-top: auto;
+}
+.lista3, .lista3 a{
+    font-size: x-large;
+    padding: 10px;
+    position: static;
+    margin-top: auto;
+}
+
+
+
+
