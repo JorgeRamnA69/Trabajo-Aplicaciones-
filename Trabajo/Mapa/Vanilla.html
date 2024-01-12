@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="/Inicio/General.css">
-    <link rel="stylesheet" href="/Inicio/Inicio.css">
+    <link rel="stylesheet" href="/Trabajo/Inicio/General.css">
+    <link rel="stylesheet" href="/Trabajo/Mapa/Vanilla.css">
     <script src="https://kit.fontawesome.com/caae037d42.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
-    <link rel="icon" type ="img.png" href="/Inicio/Logo gta.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100&family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <div> <!-- Navegacion -->
         <div id="navbartop"> <!--Navegacion top-->
             <div id="desplegable1">
-                <button id="desplegar" onclick="toggleCruz()">
-                    <div class="barra"></div>
-                    <div class="barra"></div>
-                    <div class="barra"></div>
-                </button>
+                <button id="desplegar"><i id="icono" class="fas fa-bars fa-xl"></i></button>
                 <div id="desplegable" class="oculto">
                     <ul id="drop">
+                        <li class="lista"><a href="/Trabajo/Inicio/Inicio.html">Inicio</a></li>
                         <li class="lista1">Historia</li>
                         <div>
                             <li class="lista1" id="mapaboton">Mapa</li>
@@ -30,8 +26,8 @@
                                 <div>
                                     <li id="losantosb" class="lista">Los santos</li>
                                     <ul id="losantosd" class="oculto2">
-                                        <li class="lista"><a href="/Mapa/casino.html">Casino</a></li>
-                                        <li class="lista"><a href="/Mapa/Vanilla.html">Vanilla Unicorn</a></li>
+                                        <li class="lista"><a href="/Trabajo/Mapa/casino.html">Casino</a></li>
+                                        <li class="lista"><a href="/Trabajo/Mapa/Vanilla.html">Vanilla Unicorn</a></li>
                                         <li class="lista">Arena</li>
                                         <li class="lista">Bunker</li>
                                         <li class="lista">Instalaciones</li>
@@ -55,17 +51,16 @@
                 </div>
             </div>
             <div class="logo">
-                <a href="/Inicio/Inicio.html"><img id="logo" src="/Inicio/Logo gta.png"></a>
+                <a href="/Trabajo/Inicio/Inicio.html"><img id="logo" src="/Trabajo/vanilla-removebg-preview.png"></a>
             </div>
             <div id="cuenta1">
                 <ul id="cuenta">
-                    <li class="cuenta"><a href="/Cuentas/iniciarsesion.html">Iniciar sesión</a></li>
-                    <li class="cuenta"><a href="/Cuentas/registrarse.html">Registrarse</a></li>
+                    <li class="cuenta"><a href="/Trabajo/Cuentas/iniciarsesion.html">Iniciar sesión</a></li>
+                    <li class="cuenta"><a href="/Trabajo/Cuentas/registrarse.html">Registrarse</a></li>
                 </ul>
             </div>
         </div>
-        <button id="botonregistro"><a href="/Cuentas/registrarse.html">REGISTRATE</a></button>
     </div>
-    <script src="/Inicio/Inicio.js"></script>
+    <script src="/Trabajo/Inicio/Inicio.js"></script>
 </body>
 </html>
